@@ -1,6 +1,6 @@
 # LSTM Training
 
-This repository contains code for training an LSTM neural network using PyTorch.
+This repository contains code for cross-validation of the base LSTM model.
 
 ## Features
 
@@ -22,30 +22,22 @@ cd LSTM_training
 
 Run the training script:
 
-```bash
-python train.py
+```
+bash trainModel.sh
 ```
 
 ## Project Structure
 
 ```text
 LSTM_training/
-├── train.py
-├── model.py
-├── dataset.py
-├── requirements.txt
+├── LSTM.py
+├── getData.py
+├── run.py
+├── run_full.py
+├── test.py
+├── trainModel.sh
 └── README.md
 ```
-
-## Requirements
-
-- Python 3.10+
-- PyTorch
-- NumPy
-
-## Results
-
-Training results and model checkpoints are saved in the output directory.
 
 ## License
 
