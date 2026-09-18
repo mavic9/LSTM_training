@@ -1,4 +1,3 @@
-````markdown
 # LSTM Training
 
 This repository contains code for training an LSTM neural network using PyTorch.
